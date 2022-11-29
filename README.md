@@ -14,13 +14,13 @@ Projeto basico Laravel usando Sanctum, VueJs, testes unitários, testes de integ
 Copiar o .env.example para um arquivo .env no mesmo diretório
 
 ## 5º passo
-Adicionar as variáveis de ambiente ao .env 
-MAILGUN_DOMAIN
-MAILGUN_SECRET
-MAILGUN_ENDPOINT
-DB_DATABASE
-DB_USERNAME
-DB_PASSWORD
+Adicionar as variáveis de ambiente ao .env <br/>
+MAILGUN_DOMAIN<br/>
+MAILGUN_SECRET<br/>
+MAILGUN_ENDPOINT<br/>
+DB_DATABASE<br/>
+DB_USERNAME<br/>
+DB_PASSWORD<br/>
 
 ## 6º passo
 > php artisan config:cache
