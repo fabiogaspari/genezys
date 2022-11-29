@@ -7,6 +7,9 @@ Projeto basico Laravel usando Sanctum, VueJs, testes unitários, testes de integ
 ## 2º Comando
 > npm install
 
+## 3º Comando
+> php artisan migrate
+
 ### Em um terminal
 > php artisan serve
 
