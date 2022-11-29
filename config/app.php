@@ -143,6 +143,9 @@ return [
         // 'store'  => 'redis',
     ],
 
+    'zipcode_method' => env('ZIPCODE_METHOD', 'zipcode'),
+
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
