@@ -22,7 +22,10 @@ DB_DATABASE<br/>
 DB_USERNAME<br/>
 DB_PASSWORD<br/>
 
-## 6º passo
+## 7º passo
+> php artisan key:generate
+
+## 8º passo
 > php artisan config:cache
 
 ### Em um terminal
