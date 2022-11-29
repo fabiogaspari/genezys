@@ -11,12 +11,9 @@ Projeto basico Laravel usando Sanctum, VueJs, testes unitários, testes de integ
 > php artisan migrate
 
 ## 4º passo
-> php artisan config:cache
-
-## 4º passo
 Copiar o .env.example para um arquivo .env no mesmo diretório
 
-## 5º passo
+## 6º passo
 > php artisan config:cache
 
 ### Em um terminal
