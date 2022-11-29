@@ -23,8 +23,8 @@ class ZipCodeStrategy implements ZipCodeInterface
     public function call(string $zipCode): Response
     {
         $response = Http::withHeaders([
-            "Content-Type" => "application/json",
-            "apikey" => "799fcb40-6f54-11ed-a1a9-71b04d9cc629", 
+            "Content-Type" => self::CONTENT_TYPE,
+            "apikey" => self::API_KEY, 
         ])->get(self::URL_ZIPCODE_BASE_SEARCH, [
             'codes' => $zipCode
         ]);
