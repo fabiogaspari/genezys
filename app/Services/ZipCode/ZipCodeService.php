@@ -6,9 +6,6 @@ use App\Services\ZipCode\Factory\ChooseZipCodeFactory;
 
 class ZipCodeService
 {
-    const URL_ZIPCODE_BASE_SEARCH = 'viacep.com.br/ws/';
-    const ZIPCODE_FORMAT = '/json/';
-
     /**
      * Call viacep service to retrive data about address.
      *
